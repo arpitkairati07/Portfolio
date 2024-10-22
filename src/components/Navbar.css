@@ -1,0 +1,120 @@
+/* Navbar Container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 170px;
+}
+
+/* Full Navigation Menu (Desktop) */
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  font-size: 20px;
+  gap: 60px;
+}
+
+/* Connect Button (Desktop) */
+.nav-connect {
+  padding: 20px 40px;
+  border-radius: 50px;
+  background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.36%);
+  font-size: 22px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.nav-connect:hover {
+  transform: scale(1.05);
+}
+
+/* Navigation Links */
+.nav-menu li {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.nav-menu li img {
+  display: flex;
+  margin: auto;
+}
+
+.anchor-link {
+  color: white;
+  text-decoration: none;
+}
+
+/* Hide Menu Icons by Default (Desktop) */
+.nav-mob-close,
+.nav-mob-open {
+  display: none;
+}
+
+/* Mobile View (Small Devices) */
+@media (max-width: 768px) {
+  /* Adjust Navbar Margin for Smaller Screens */
+  .navbar {
+    margin: 20px 20px;
+    position: relative;
+  }
+
+  /* Hide Connect Button on Mobile */
+  .nav-connect {
+    display: none;
+  }
+
+  /* Show Hamburger Icon on Mobile */
+  .nav-mob-open {
+    display: block;
+    position: fixed;
+    right: 10px; /* Pin to the right edge */
+    top: 20px;
+    width: 30px;
+    height: 30px;
+    z-index: 999;
+    cursor: pointer;
+  }
+
+  /* Close Icon Styling */
+  .nav-mob-close {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+  }
+
+  /* Mobile Navigation Menu */
+  .nav-menu {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    align-items: flex-start;
+    top: 0;
+    right: -300px; /* Hidden off-screen by default */
+    gap: 30px;
+    width: 300px;
+    height: 100%;
+    background-color: #1F0016;
+    transition: right 0.5s ease;
+    box-sizing: border-box;
+    z-index: 2;
+  }
+
+  /* When Menu is Open */
+  .nav-menu.open {
+    right: 0;
+  }
+
+  /* Mobile Menu Items */
+  .nav-menu li {
+    font-size: 25px;
+    padding-left: 40px;
+    flex-direction: row;
+    gap: 20px;
+  }
+}
