@@ -10,20 +10,23 @@ const mywork_data = [
         w_no:1,
         w_name:"Web design",
         w_img:project1_img,
-        w_link: 'https://cloudmate.netlify.app/'
+        w_link: 'https://cloudmate.netlify.app/',
+        w_name:'CloudMate'
     },
     {
         
         w_no:2,
         w_name:"Web design",
         w_img:project2_img,
-        w_link: 'https://clonemyantra.netlify.app/'
+        w_link: 'https://clonemyantra.netlify.app/',
+        w_name:'MyntraClone'
     },
     {
         w_no:3,
         w_name:"Web design",
         w_img:project3_img,
-        w_link: 'https://super-griffin-b62455.netlify.app/'
+        w_link: 'https://super-griffin-b62455.netlify.app/',
+        w_name:'RandomQouteGenerator'
     },
     // {
     //     w_no:4,
