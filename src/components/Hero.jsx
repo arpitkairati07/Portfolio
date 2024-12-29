@@ -1,6 +1,6 @@
 import React from 'react';
 import './Hero.css';
-import my_photo from '././../assets/my_photo.jpg';
+import my_photo from '././../assets/my_photo.png';
 import {TypeAnimation } from "react-type-animation"
 import AnchorLink from 'react-anchor-link-smooth-scroll'; 
 
