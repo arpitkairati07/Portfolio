@@ -107,6 +107,10 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.sliding-animation {
+    animation: slideleft 10s ease-in-out infinite;
+  }
+  
 .about-achievement p{
     font-size: 22px;
     font-weight: 500;
