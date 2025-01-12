@@ -70,7 +70,7 @@ const About = () => {
           <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="50" height="50"/>
         </a>
         <a href="https://github.com/" target="_blank" rel="noreferrer" className="p-2">
-          <img src="src\components\Images\GitHub-Logo.png" alt="github" width="50" height="50"/>
+          <img src="src\components\Images\icons8-github.svg" alt="github" width="50" height="50"/>
         </a>
       </div>
 
