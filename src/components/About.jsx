@@ -4,6 +4,7 @@ import theme from '../assets/theme_pattern.svg';
 import about from '././../assets/still-life-graphic-design-office.jpg';
 import bootstrap from "./Images/bootstrap.png";
 import express from "./Images/express.png"
+import github from "./Images/github.png";
 
 const About = () => {
   return (
@@ -70,7 +71,7 @@ const About = () => {
           <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="50" height="50"/>
         </a>
         <a href="https://github.com/" target="_blank" rel="noreferrer" className="p-2">
-          <img src="src\components\Images\icons8-github.svg" alt="github" width="50" height="50"/>
+          <img src={github} alt="github" width="50" height="50"/>
         </a>
       </div>
 
