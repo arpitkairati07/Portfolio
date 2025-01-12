@@ -26,7 +26,7 @@ const mywork_data = [
         w_name:"Web design",
         w_img:project3_img,
         w_link: 'https://cloudmate.netlify.app/',
-        w_name:'RandomQouteGenerator'
+        w_name:'CloudTeller'
     },
     {
         w_no:4,
